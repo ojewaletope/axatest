@@ -1,0 +1,135 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+body {
+  background: linear-gradient(#f1eefc, #ffffff);
+}
+.nav {
+  background: #7966ff;
+  height: 200px;
+  margin: 5px;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 4px;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.user_section {
+  display: flex;
+  margin-top: 15px;
+}
+.user_icon {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.user_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+.user_icon_container {
+  height: 80px;
+  width: 80px;
+  /* border: 2px solid #fff;
+    border-radius: 50%; */
+}
+.floating {
+  height: 150px;
+  margin: 0 20px;
+  border: 1px solid #fff;
+  padding: 10px;
+  position: absolute;
+  top: -68px;
+  width: 308px;
+  background: #fff;
+  /* margin-bottom: 50px; */
+  border-radius: 12px;
+}
+.floating_content_container {
+  display: flex;
+  justify-content: space-around;
+}
+.floatin_header {
+  display: flex;
+  justify-content: space-between;
+}
+.floating_content {
+  height: 40px;
+  width: 40px;
+}
+.floating_icon {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 5px;
+}
+.main {
+  background: linear-gradient(#f1eefc, #ffffff);
+  position: relative;
+}
+.main_body {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(#f1eefc, #ffffff);
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 200px;
+  align-items: center;
+  border-radius: 8px;
+}
+.main_body_detail {
+  display: flex;
+  padding: 10px;
+}
+.main_body_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.promo_details {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(#7966ff, #9eb7ff);
+  margin: 0 10px;
+  align-items: center;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+.promo_section_icon {
+  height: 40px;
+  width: 40px;
+}
+.footer_content {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+.footer_img_container {
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+  .floating {
+    width: 95%;
+  }
+}
