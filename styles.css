@@ -118,6 +118,9 @@ body {
   height: 40px;
   width: 40px;
 }
+footer {
+  padding: 15px;
+}
 .footer_content {
   display: flex;
   margin-top: 5px;
