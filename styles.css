@@ -131,6 +131,15 @@ footer {
   height: 40px;
   width: 40px;
 }
+.footer_content_details {
+  display: flex;
+  flex-direction: column;
+}
+.footer_text {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 12px;
+}
 
 @media only screen and (min-width: 600px) {
   .floating {
